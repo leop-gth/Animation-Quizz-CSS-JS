@@ -1,0 +1,72 @@
+h1{
+    font-family: 'Oswald', sans-serif;
+    display:flex;
+    justify-content:center;
+}
+
+
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    display:flex;
+    justify-content:flex-start;
+    font-size:15px;
+
+}
+
+
+#container {
+    display : flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+#question {
+    border-radius:0%;
+    border: solid 1px;
+}
+
+#validate {
+    border: solid 1px;
+    background-color: #0000002a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+#resultat {
+    border: solid 1px;
+}
+
+#button {
+    display:flex;
+    justify-content: center;
+ 
+}
+
+.question-block{
+    font-family: 'Oswald', sans-serif;
+}
+
+.echec {
+    animation: echec 0.3s ease-in-out;
+}
+
+@keyframes echec {
+    0% {
+        transform: translateX(0px);
+    }
+    33% {
+        transform: translateX(5px);
+    }
+    66% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
